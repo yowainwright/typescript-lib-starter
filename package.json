@@ -2,12 +2,12 @@
   "name": "vite-lib-starter",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vite", "template", "vitest"],
+  "author": "Jeff Wainwright <yowainwright@gmail.comm> (https://jeffry.in)",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.32.0",
