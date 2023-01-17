@@ -1,4 +1,4 @@
-# vite-lib-starter
+# [WIP] vite-lib-starter
 
 A starter template for building a Node Typescript library with Vite and Vitest.
 
