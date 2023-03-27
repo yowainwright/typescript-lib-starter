@@ -28,6 +28,7 @@ importers:
       tslib: 2.5.0
       tsup: ^6.5.0
       turbo: ^1.7.0
+      type-fest: ^3.7.1
       typescript: ^4.9.4
       vite: 4.0.4
       vitest: 0.28.3
@@ -57,6 +58,7 @@ importers:
       ts-node: 10.9.1_awa2wsr5thmg3i7jqycphctjfq
       tsup: 6.5.0_z6wznmtyb6ovnulj6iujpct7um
       turbo: 1.7.0
+      type-fest: 3.7.1
       typescript: 4.9.4
       vite: 4.0.4_@types+node@18.11.18
       vitest: 0.28.3
@@ -1706,7 +1708,7 @@ packages:
     resolution: {integrity: sha512-IG23inYII3dWlU2EyiAiGj6Bwal5GzsgPMwjYGvc1HPE2dgbj4ZB5ToWBKSquKw74nB3TIuOwaI6/jSULzfgrw==}
     engines: {node: '>=14.16'}
     dependencies:
-      type-fest: 3.5.3
+      type-fest: 3.7.1
     dev: true
 
   /ansi-regex/5.0.1:
@@ -7266,8 +7268,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /type-fest/3.5.3:
-    resolution: {integrity: sha512-V2+og4j/rWReWvaFrse3s9g2xvUv/K9Azm/xo6CjIuq7oeGqsoimC7+9/A3tfvNcbQf8RPSVj/HV81fB4DJrjA==}
+  /type-fest/3.7.1:
+    resolution: {integrity: sha512-8LZNdvuztgxCF4eYpEmPYUPS0lbbByM2qHcp2oMxHZhWLIQB9QE36EeQ1PKwsUIDZXEP8HCBEmkBbT1//kLU4Q==}
     engines: {node: '>=14.16'}
     dev: true
 
