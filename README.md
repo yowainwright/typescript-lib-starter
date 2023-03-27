@@ -8,12 +8,14 @@ A Typescript starter template for building a Typescript Library with a Docs App.
 
 This starter will help you build and release library fast! 
 
-### There are a lot of templates for that. Why this one?
+#### There are a lot of templates for that. _Why this one?_
 
-This starter is built for maintainability! 
+This starter works immediately but is built for maintainability! 
 
 - ✅ Developer experience is top consideration! 
 - ✅ Tools implemented to be interchangeable and extendable.
+
+---
 
 ## Setup
 
