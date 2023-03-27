@@ -1,6 +1,6 @@
-# [WIP] typescript-lib-starter
+# [WIP] Typescript Library Starter 📚
 
-A Typescript starter template for building a Typescript Library with a Docs App.
+Typescript Library Starter (typescript-lib-starter) is a Typescript starter template for building a Typescript Library with a docs app.
 
 ---
 
