@@ -1,16 +1,24 @@
-# [WIP] vite-lib-starter
+# [WIP] typescript-lib-starter
 
-A starter template for building a Node Typescript Library with Vite Docs App.
+A Typescript starter template for building a Typescript Library with a Docs App.
 
 ---
 
 ## Why should I use this?
 
-This starter will help you release build your library fast and with little effort. The same goes for maintenance. DevEx is a priority here! Added patterns are built to be easily interchangeable and extendable so you can make this starter for you!
+This starter will help you build and release library fast! 
+
+### There are a lot of templates for that. Why this one?
+
+This starter is built for maintainability! 
+
+- ✅ Developer experience is top consideration! 
+- ✅ Tools implemented to be interchangeable and extendable.
 
 ## Setup
 
-...Todo
+1. Click the button to use this template.
+1. Run `pnpm install`. _Configuration will happen automatically via an npm hook!_
 
 ## Features
 
