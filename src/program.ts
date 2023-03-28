@@ -2,7 +2,7 @@
 
 import { program } from "commander";
 import { Options } from "./interfaces";
-// import { update } from "./scripts";
+import { script } from "./scripts";
 const version = "VERSION";
 
 /**
@@ -12,9 +12,12 @@ const version = "VERSION";
  */
 export async function action(options: Options = {}): Promise<void> {
   try {
-    if (options?.isTestingCLI) console.info({ options });
+    if (options?.isTestingCLI) {
+      console.info({ options });
+      return;
+    }
+    script(options)
 
-    console.log({ options });
   } catch (err) {
     console.error(err);
   }

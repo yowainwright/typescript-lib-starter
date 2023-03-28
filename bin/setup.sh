@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# The follow script is built to get you up and running with the right local development environment locally.
+# However, it is highly recommended to use a Dev Container if possible!
+# This is a key way to enusre local development is consistent across a team of engineers.
+
 if [ ! -f .env ]; then
   cp .env_starter .env
   echo "created .env file from .env_starter"
@@ -8,16 +12,19 @@ else
   export $(grep -v '^#' .env | xargs)
 fi
 
-# Get .env variables
-[ ! -f .env ] || export $(grep -v '^#' .env | xargs)
-
 # Check to see if Homebrew, Go, and Pre-commit are installed, and install it if it is not
 HAS_NVM=$(command -v nvm >/dev/null)
 HAS_PNPM=$(command -v pnpm >/dev/null)
 
 
+
 if $HAS_NVM; then
-  . ~/.nvm/nvm.sh install
+  if [ "$NODE_ENV" == "local" ]; then
+    . ~/.nvm/nvm.sh install
+  else
+    nvm i
+  fi
+  echo 'node version is up-to-date'
 else
   echo "Please install NVM or ensure your version matches the .nvmrc file"
   exit 1
