@@ -22,7 +22,7 @@
     "lint-fix": "eslint . --fix",
     "lint-src": "eslint src --ext .ts",
     "pre-commit": "lint-staged --quiet && pnpm run test",
-    "prepare": "husky install && ./bin/setup.sh",
+    "preinstall": "husky install && ./bin/setup.sh",
     "prepublishOnly": "pnpm run test && pnpm run build",
     "preview": "pnpm --filter @vite-lib-starter/app app-preview",
     "release": "release-it",
@@ -37,7 +37,9 @@
   "dependencies": {
     "commander": "10.0.0",
     "compare-versions": "6.0.0-rc.1",
+    "execa": "^7.1.1",
     "fast-glob": "^3.2.12",
+    "json5": "^2.2.3",
     "react-icons": "^4.7.1",
     "tslib": "2.5.0"
   },
