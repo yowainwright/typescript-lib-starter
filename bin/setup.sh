@@ -25,6 +25,7 @@ if $HAS_NVM; then
     nvm i
   fi
   echo 'node version is up-to-date'
+  exit 0
 else
   echo "Please install NVM or ensure your version matches the .nvmrc file"
   exit 1
@@ -41,13 +42,15 @@ if $HAS_PNPM; then
     if [ $response = "y" ] || [ -z $response ]; then
       npm install -g pnpm@$PNPM_VERSION
       echo 'pnpm version updated globally'
+      exit 0
     else
       echo $PNPM_MSG
-      exit 1
     fi;
   else
     echo "pnpm version is up-to-date"
+    exit 0
   fi
+  exit 1
 else
   echo $PNPM_MSG
   exit 1
