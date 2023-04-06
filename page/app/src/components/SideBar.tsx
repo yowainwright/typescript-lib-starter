@@ -15,38 +15,18 @@ export const SideBar = () => {
         />
       </figure>
       <h2 className='font-title font-black text-primary inline-flex text-lg transition-all duration-200 md:text-3xl mb-5'>
-        Pastoralist
+        Typescript Lib Starter
       </h2>
       <h3 className='font-title text-base-content inline-flex text-sm transition-all duration-200 md:text-3m pl-4'>
-        Pastoralist is a CLI tool for managing package.json overrides (or resolutions) with ease
+        Todo
       </h3>
       <Divider />
-      <p className='font-bold'>Manage your package.json overrides or resolutions with ease!</p>
+      <p className='font-bold'>Todo!</p>
       <Divider />
       <ul className='ul'>
         <li>
-          <a href='#what-are-overrides-and-resolutions'>
-            <FaRegLightbulb /> What are overrides/resolutions?
-          </a>
-        </li>
-        <li>
-          <a href='#why-is-patoralist-awesome'>
-            <SiAwesomelists /> Why is Pastoralist Awesome?
-          </a>
-        </li>
-        <li>
-          <a href='#how-pastoralist-works'>
-            <FaToolbox /> How Pastoralist works
-          </a>
-        </li>
-        <li>
-          <a href='#setup'>
-            <IoIosRocket /> Simple to set up!
-          </a>
-        </li>
-        <li>
-          <a href='#pastoralist-object-anatomy'>
-            <GiAnatomy /> Pastoralist Object Anatomy
+          <a href='#'>
+            <FaRegLightbulb /> Todo
           </a>
         </li>
       </ul>

@@ -17,7 +17,7 @@ export const NavBar = ({ toggleDrawer, toggleTheme }: any) => {
           <div className='flex items-center gap-2'>
             <a href='/' aria-current='page' aria-label='Homepage' className='flex-0 btn btn-ghost px-2'>
               <div className='font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl'>
-                <span className='uppercase'>Pastoralist</span>
+                <span className='uppercase'>Typescript Lib Starter</span>
               </div>
             </a>
             <a href='/docs/changelog' className='link link-hover font-mono text-xs text-opacity-50'>
@@ -40,7 +40,7 @@ export const NavBar = ({ toggleDrawer, toggleTheme }: any) => {
           <div className='flex-none items-center'>
             <a
               aria-label='Github'
-              href='https://github.com/yowainwright/pastoralist'
+              href='https://github.com/yowainwright/typescript-lib-starter'
               className='btn btn-ghost drawer-button btn-square normal-case text-xl'
               target='_blank'
             >
